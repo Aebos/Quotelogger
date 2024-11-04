@@ -72,7 +72,7 @@ Possible arguments for qsearch listed here:
 
 ## Notes
 Very rarely the program stops logging new quotes, this issue is still under investigation and hard to replicate.\
-For now, if you plan running this unsupervised I recommend restarting periodically.
+For now, if you plan on running this unsupervised I recommend restarting periodically. This should be easy to automate.
 
 I consider the project feature-complete for now, so contributions are not necessarily expected.\
 Feel free to report any issues you encounter.
