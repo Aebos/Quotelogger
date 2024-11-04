@@ -56,7 +56,7 @@ To use qsearch, run:
 python qsearch.py - ARGUMENTS
 ```
 Possible arguments for qsearch listed here:
-||||
+| Short | Long | Explanation |
 | ------------ | ------------ | ------------ |
 | -h | --help | Show help message |
 | -n | --number | Search quotes by number |
