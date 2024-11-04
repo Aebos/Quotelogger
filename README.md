@@ -27,12 +27,16 @@ Quotelogger requires 4 values in it's config.ini file
 This is the default config.ini
 ```
 [Settings]
+
 # Filename for quote database (eg. quotes.db)
 database = quotes.db
+
 # Channel name (eg. twitch)
 channel = twitch
+
 # Quote bot name (eg. StreamElements)
 quotebotname = streamelements
+
 # Template for parsing messages
 template = @<usr>, #<num>: <quote>
 ```
