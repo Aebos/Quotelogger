@@ -63,7 +63,7 @@ Possible arguments for qsearch listed here:
 | -c | --content | Search quotes by content |
 | -s | --stats | Show statistics on saved quotes |
 | -a | --all | Show all saved quotes in order |
-| -e | --export | Export all saved quotes to a CSV-file (Remember to include filename e.g Example.csv |
+| -e | --export | Export all saved quotes to a CSV-file (Remember to include filename e.g Example.csv) |
 | -m | --missing | Show which quotes are missing |
 
 ## Notes
