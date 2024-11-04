@@ -3,7 +3,7 @@
 
 </h1>
 
-Quotelogger is a simple python program to passively log user quotes from Twitch bots such as StreamElements
+**Quotelogger** is a simple python program to passively log user quotes from Twitch bots such as StreamElements
 
 - Passively logs quotes from IRC with no authentication necessary
 - Easy configuration
@@ -50,6 +50,8 @@ Open up the your folder in the terminal and run:
 python qlogger.py
 ```
 Depending on your operating system, you might need to use python3 or py instead.
+
+Press Ctrl + C to quit, as usual.
 
 To use qsearch, run:
 ```

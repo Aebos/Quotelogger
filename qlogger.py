@@ -12,7 +12,7 @@ PORT = 6667
 def load_config(filename='config.ini'):
     if not os.path.exists(filename):
         print(f"Error: '{filename}' not found.")
-        print(f"{filename} must contain 'database', 'channel' and 'quotebotname'")
+        print(f"{filename} must contain 'database', 'channel', 'quotebotname' and 'template'")
         sys.exit(1)
 
     conf = configparser.ConfigParser()
@@ -101,7 +101,8 @@ def checksave(resp):
 
 
 def main():
-    print("Started QuoteLogger V.1.6")
+    print("Started QuoteLogger V.1.6\n")
+    print("For help visit: github.com/aebos/Quotelogger\n")
     try:
         read_chat()
     except KeyboardInterrupt:
