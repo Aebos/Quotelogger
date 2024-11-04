@@ -101,7 +101,7 @@ def checksave(resp):
 
 
 def main():
-    print("Started QuoteLogger V.1.6\n")
+    print("Started QuoteLogger V.1.6.1\n")
     print("For help visit: github.com/aebos/Quotelogger\n")
     try:
         read_chat()
