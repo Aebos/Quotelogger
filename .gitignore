@@ -3,3 +3,5 @@ config.ini
 checksums.sha256
 quotelogger.tar.gz
 quotelogger.zip
+build.sh
+tasks.json
