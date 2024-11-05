@@ -4,6 +4,7 @@ import configparser
 import os
 import sys
 import re
+from random import randint
 
 SERVER = 'irc.chat.twitch.tv'
 PORT = 6667
@@ -36,7 +37,7 @@ def convert_to_regex(template):
 
 
 config = load_config()
-NICK = 'justinfan12345'
+NICK = 'justinfan'+str(randint(1000000000,9999999999))
 CHANNEL = '#' + config['Settings']['channel']
 QUOTEBOT = config['Settings']['quotebotname']
 DATABASE = config['Settings']['database']
@@ -97,11 +98,12 @@ def checksave(resp):
             INSERT OR IGNORE INTO quotes (number, content) VALUES (?, ?)
             ''', (number, quote))
             conn.commit()
-            print("Logged quote #" + str(number) + " successfully!")
+            print(f"Logged quote #{str(number)} successfully!")
 
 
 def main():
-    print("Started QuoteLogger V.1.6.1\n")
+    print("Started Quotelogger V.1.6.2")
+    print(f"Logged in as {NICK}, monitoring {config['Settings']['channel']}'s chat\n")
     print("For help visit: github.com/aebos/Quotelogger\n")
     try:
         read_chat()
