@@ -117,7 +117,7 @@ def main():
     parser.add_argument('-m', '--missing', action='store_true', help='Find missing quotes')
     args = parser.parse_args()
 
-    print("Version 1.6.1\n")
+    print("Version 1.6.2\n")
     if args.stats:
         search_stats()
     elif args.all:
