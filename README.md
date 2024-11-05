@@ -16,6 +16,10 @@ Extended by **qsearch**, which helps you manage the database by:
 - Finding missing quotes
 - Estimating completion
 
+![GitHub Release](https://img.shields.io/github/v/release/aebos/Quotelogger)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/aebos/Quotelogger/total)
+![GitHub License](https://img.shields.io/github/license/aebos/Quotelogger)
+
 ## Installation
 Installation can be done either by cloning the repository or downloading [the latest release](https://github.com/aebos/Quotelogger/releases/latest) as a zip or tar.gz archive.
 
