@@ -18,6 +18,7 @@ Extended by **qsearch**, which helps you manage the database by:
 
 ![GitHub Release](https://img.shields.io/github/v/release/aebos/Quotelogger)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/aebos/Quotelogger/total)
+![GitHub Repo stars](https://img.shields.io/github/stars/aebos/Quotelogger?style=flat)
 ![GitHub License](https://img.shields.io/github/license/aebos/Quotelogger)
 
 ## Installation
