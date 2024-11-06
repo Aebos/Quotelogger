@@ -22,7 +22,7 @@ def load_config(filename='config.ini'):
 
 
 def convert_to_regex(template):
-
+    # Templates in config are in non-standard format, this converts them to regex for easier use
     conversion_table = {
         '<usr>': r'(?:\S+)',
         '<num>': r'(?P<num>\d+)',
@@ -37,6 +37,7 @@ def convert_to_regex(template):
 
 
 config = load_config()
+# Randomized username to avoid possible conflicts if multiple instances monitor the same chat
 NICK = 'justinfan'+str(randint(1000000000,9999999999))
 CHANNEL = '#' + config['Settings']['channel']
 QUOTEBOT = config['Settings']['quotebotname']

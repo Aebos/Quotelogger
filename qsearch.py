@@ -117,6 +117,7 @@ def main():
     parser.add_argument('-m', '--missing', action='store_true', help='Find missing quotes')
     args = parser.parse_args()
 
+    # Version number always mirrors qlogger
     print("Version 1.6.2\n")
     if args.stats:
         search_stats()
@@ -132,7 +133,7 @@ def main():
         search_missing()
     else:
         print("Please provide a search parameter: -n <number> or -c <content>")
-        print("Use -h for a list of available commands")
+        print("Use -h for a list of all available arguments")
 
 
 if __name__ == "__main__":
